@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    text-align: center;
+    
+}
+#logo_principal {
+    margin-left:-700px ;
+    padding: 0;    
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px ;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+nav a:hover {
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+}
+#logo_principal:hover{
+   background-color: white;
+}
+#copa_do_mundo {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+/*Parte do Gabriel*/
+.card {
+        display: inline-block;
+        width: ;
+        text-align: center;
+        padding: 30px;
+}
+.card img {
+    width: ;
+}

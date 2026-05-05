@@ -17,8 +17,7 @@ header {
 nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     margin: 10px;
     padding: 10px 20px;
     margin-bottom: 15px;
@@ -43,8 +42,7 @@ nav a:hover {
 
 /*Parte do Gabriel*/
 .card {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     width: 100%;
     text-align: center;
     padding: 30px;
@@ -61,8 +59,7 @@ div {
 }
 .copinha {
     text-align: center;
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     width: 400px;
     margin: 15px;
     padding: 10px;

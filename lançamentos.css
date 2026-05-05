@@ -17,3 +17,11 @@ footer{
     margin-top: 200px;
 text-align: center;
 }
+.lançamento img {
+    display: inline-block; 
+    width: 250px;
+    height: 250px;
+}
+section {
+    text-align: center;
+}

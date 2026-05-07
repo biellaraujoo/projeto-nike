@@ -22,10 +22,12 @@ h2 {
   display: inline-block; 
     width: 300px;
     height: 300px;
+    object-fit: contain;
+
 
 }
 .card-img:hover{
-    transform: translateY(50PX);
+    transform: translateY(20PX);
 }
 li {
     display: inline-block;

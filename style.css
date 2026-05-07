@@ -76,6 +76,7 @@ div {
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
+<<<<<<< HEAD
 
 .banner {
     
@@ -89,4 +90,16 @@ div {
     text-align: center;
     color: rgb(0, 0, 0);
 
+=======
+li {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+text-align: center;
+>>>>>>> 45e066d05a5e497039cb9763f69a93d854af5b47
 }

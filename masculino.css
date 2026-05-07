@@ -6,34 +6,54 @@
     padding: 0%;
     /*regula o espaçamento interno */
 }
+
 h2 {
     text-align: center;
     font-size: 45px;
 }
-.card img {
-   display: inline-block; 
-   width: 250px;
-   height: 250px;
 
-}
-#roupa{
+.card img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
     text-align: center;
+    padding: 5px ;
 }
+
+#roupa {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 #calçados {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
 #acessorios {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     margin-top: 200px;
     text-align: center;
 
 }
+
 li {
     display: inline-block;
     margin: 10px;
     color: white;
+}
+
+body {
+    background-color: white;
+
 }

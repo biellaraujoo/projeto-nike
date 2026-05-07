@@ -17,3 +17,20 @@ footer{
     margin-top: 200px;
 text-align: center;
 }
+.card1 img {
+    display: inline-block; 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card2 img {
+    display: inline-block; 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}

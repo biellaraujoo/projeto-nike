@@ -27,6 +27,8 @@ nav a {
 nav a:hover {
     background-color: rgb(17, 17, 17);
     color: aliceblue;
+     display: inline-flex;
+    flex-direction: row;
 }
 
 #logo_principal:hover {
@@ -49,15 +51,17 @@ nav a:hover {
     background-color: #c2894c
 }
 
-.card img {
+.container img {
     width: 920px;
 }
+
 div {
     text-align: center;
     background-color: black;
-    
+
 }
-.copinha {
+
+.item {
     text-align: center;
     display: inline-block;
     width: 400px;
@@ -67,14 +71,16 @@ div {
     border-radius: 10px;
 }
 
-.copinha img {
+.item img {
     width: 100%;
     border-radius: 10px;
 }
-.texto_copinha {
+
+.texto_item {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
 #icones {
     margin-bottom: 10px;
     margin-top: 15px;

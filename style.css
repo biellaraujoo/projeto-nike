@@ -6,11 +6,10 @@
 
 header {
     text-align: center;
-
 }
 
 #logo_principal {
-    margin-left: -700px;
+    margin-left: -900px;
     padding: 0;
 }
 
@@ -18,6 +17,7 @@ nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
+
     margin: 10px;
     padding: 10px 20px;
     margin-bottom: 15px;
@@ -27,44 +27,33 @@ nav a {
 nav a:hover {
     background-color: rgb(17, 17, 17);
     color: aliceblue;
-     display: inline-flex;
-    flex-direction: row;
 }
 
 #logo_principal:hover {
     background-color: white;
 }
 
-.titulos {
-    margin-bottom: 10px;
-    margin-top: 15px;
-    font-size: 40px;
-    text-align: center;
-}
-
 /*Parte do Gabriel*/
 .container {
-    display: inline-block;
+
+    display: flex;
+    flex-direction: row;
     width: 100%;
     text-align: center;
     padding: 30px;
-    background-color: #c2894c
 }
 
-.container img {
-    width: 920px;
-}
+
 
 div {
     text-align: center;
-    background-color: black;
-
+    display: flex;
+    flex-direction: row;
 }
 
 .item {
     text-align: center;
-    display: inline-block;
-    width: 400px;
+    width: 300px;
     margin: 15px;
     padding: 10px;
     background-color: rgb(0, 0, 0);
@@ -86,4 +75,18 @@ div {
     margin-top: 15px;
     font-size: 40px;
     color: rgb(0, 0, 0);
+}
+
+.banner {
+    
+    width: 100%;
+    height: 600px;
+    align-items: flex-start;
+    
+}
+
+.banner-content h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
 }

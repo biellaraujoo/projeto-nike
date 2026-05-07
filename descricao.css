@@ -13,18 +13,7 @@
    
 }
 
-li {
-    display: inline-block;
-    margin: 10px;
-    color: white;
-}
-footer{
-    background-color: black;
-    color: white;
-    margin-top: 200px;
-}
-
-li {
+.li2{
     color: black;
 }
 .texto-roupa {
@@ -40,4 +29,17 @@ li {
 .detalhe-roupa{
     display: flex;
     justify-content: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    color: white;
 }

@@ -18,24 +18,25 @@ h2 {
     height: 250px;
     justify-content: center;
     text-align: center;
+    padding: 5px ;
 }
 
 #roupa {
     text-align: center;
     display: flex;
-
+    justify-content: center;
 }
 
 #calçados {
     text-align: center;
     display: flex;
-
+    justify-content: center;
 }
 
 #acessorios {
     text-align: center;
     display: flex;
-
+    justify-content: center;
 }
 
 footer {

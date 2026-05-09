@@ -25,8 +25,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(17, 17, 17);
-    color: aliceblue;
+    background-color: rgba(17, 17, 17, 0.418);
+    color: rgb(0, 0, 0);
 }
 
 #logo_principal:hover {
@@ -34,30 +34,35 @@ nav a:hover {
 }
 
 /*Parte do Gabriel*/
-.container {
-
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    text-align: center;
-    padding: 30px;
-}
-
-
 
 div {
-    text-align: center;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .item {
+    height: 250px;
     text-align: center;
-    width: 300px;
+    width: 340px;
+    margin-top: 50px;
     margin: 15px;
     padding: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
+}
+
+.item:hover {
+    display: inline-block;
+    width: 350px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(1, 5, 24, 0.788);
+    border-radius: 10px;
+    transform: translateY(-20px);
+    transition: 0.5s;
+    color: aliceblue;
 }
 
 .item img {
@@ -66,7 +71,7 @@ div {
 }
 
 .texto_item {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -76,30 +81,53 @@ div {
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
-<<<<<<< HEAD
 
 .banner {
-    
-    width: 100%;
-    height: 600px;
-    align-items: flex-start;
-    
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.4)),
+        url(./imagens/banner_CHUTEIRA.jpg);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+
 }
 
-.banner-content h2 {
-    text-align: center;
-    color: rgb(0, 0, 0);
+.banner2 {
+    height: 400px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)),
+        url(./imagens/BANNERRRRRRR.jpg);
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
 
-=======
+}
+
+#banner-content {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
 li {
     display: inline-block;
     margin: 10px;
     color: white;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     margin-top: 200px;
-text-align: center;
->>>>>>> 45e066d05a5e497039cb9763f69a93d854af5b47
+    text-align: center;
 }

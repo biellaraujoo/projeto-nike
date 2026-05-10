@@ -11,6 +11,7 @@ header {
 #logo_principal {
     margin-left: -900px;
     padding: 0;
+    padding-top: 10px;
 }
 
 nav a {
@@ -25,8 +26,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(17, 17, 17, 0.418);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #logo_principal:hover {
@@ -58,11 +59,11 @@ div {
     width: 350px;
     margin: 15px;
     padding: 10px;
-    background-color: rgba(1, 5, 24, 0.788);
+    background-color: rgba(17, 26, 73, 0.788);
     border-radius: 10px;
     transform: translateY(-20px);
     transition: 0.5s;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .item img {
@@ -71,15 +72,19 @@ div {
 }
 
 .texto_item {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 #icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 10px;
     margin-top: 15px;
     font-size: 40px;
     color: rgb(0, 0, 0);
+    background-color: #36577a
 }
 
 .banner {
@@ -98,9 +103,9 @@ div {
 
 .banner2 {
     height: 400px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0)),
-        url(./imagens/BANNERRRRRRR.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.4)),
+        url(./imagens/NIKE\ GAME.jpg);
     background-size: 100%;
     background-position: center;
     display: flex;
@@ -117,6 +122,40 @@ div {
     justify-content: center;
     text-align: center;
     color: white;
+}
+
+#icones {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.icones {
+    height: 200px;
+    text-align: center;
+    width: 250px;
+    margin-top: 50px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.icones:hover {
+    display: inline-block;
+    width: 310px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #36577a;
+    border-radius: 10px;
+    transform: translateY(-20px);
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+.icones img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 li {

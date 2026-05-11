@@ -59,11 +59,16 @@ div {
     width: 350px;
     margin: 15px;
     padding: 10px;
-    background-color: rgba(17, 26, 73, 0.788);
+    background-color: rgba(240, 240, 240, 0.788);
     border-radius: 10px;
     transform: translateY(-20px);
     transition: 0.5s;
     color: rgb(0, 0, 0);
+}
+
+.item:hover > .texto_item {
+    color: #000;
+    transition: 0.5s;
 }
 
 .item img {
@@ -141,16 +146,17 @@ div {
     border-radius: 10px;
 }
 
+
 .icones:hover {
     display: inline-block;
     width: 310px;
     margin: 15px;
     padding: 10px;
-    background-color: #36577a;
+    background-color: rgba(240, 240, 240, 0.788);
     border-radius: 10px;
     transform: translateY(-20px);
     transition: 0.5s;
-    color: aliceblue;
+   
 }
 
 .icones img {

@@ -38,6 +38,9 @@ footer {
 
 }
 
+.lista-roupa ul li {
+    color: black;
+}
 li {
     display: inline-block;
     margin: 10px;

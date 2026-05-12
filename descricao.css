@@ -1,35 +1,44 @@
-*{
+@import url('https://fonts.cdnfonts.com/css/domotika-trial');
+
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
+body {
+    font-family: 'Florentia', sans-serif;
+}
 
 .detalhe-roupa img {
-   
+
     width: 250px;
     height: 250px;
     padding: 5px;
     text-align: center;
-   
+
 }
 
-.li2{
+.li2 {
     color: black;
 }
+
 .texto-roupa {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.lista-roupa{
+
+.lista-roupa {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.detalhe-roupa{
+
+.detalhe-roupa {
     display: flex;
     justify-content: center;
 }
+
 footer {
     background-color: black;
     color: white;
@@ -41,6 +50,7 @@ footer {
 .lista-roupa ul li {
     color: black;
 }
+
 li {
     display: inline-block;
     margin: 10px;

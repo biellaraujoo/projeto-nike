@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/domotika-trial');
 * {
     box-sizing: border-box;
     /*ativa modelo de caixa */
@@ -5,6 +6,9 @@
     /*regula a margem exterior */
     padding: 0%;
     /*regula o espaçamento interno */
+}
+body {
+    font-family: 'Florentia', sans-serif;
 }
 
 .lancamento {
